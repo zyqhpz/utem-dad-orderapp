@@ -41,16 +41,6 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>CheckOurRedirectServlet</display-name>
-    <servlet-name>CheckOurRedirectServlet</servlet-name>
-    <servlet-class>CheckOurRedirectServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>CheckOurRedirectServlet</servlet-name>
-    <url-pattern>/demo/checkOurRedirectServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>CheckOutRedirectServlet</display-name>
     <servlet-name>CheckOutRedirectServlet</servlet-name>
     <servlet-class>CheckOutRedirectServlet</servlet-class>
