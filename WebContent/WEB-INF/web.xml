@@ -49,4 +49,14 @@
     <servlet-name>CheckOurRedirectServlet</servlet-name>
     <url-pattern>/demo/checkOurRedirectServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckOutRedirectServlet</display-name>
+    <servlet-name>CheckOutRedirectServlet</servlet-name>
+    <servlet-class>CheckOutRedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckOutRedirectServlet</servlet-name>
+    <url-pattern>/demo/checkOutRedirectServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
